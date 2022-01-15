@@ -1,0 +1,39 @@
+.container3{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    height: auto;
+    width: 60%;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    background-color: #1111113d;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.heading{
+    font-size: 7rem;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    background-color:  rgb(243,167,21);
+    padding: 0 1rem 0 1rem;
+    border-radius: 20px;
+}
+.displayPicture{
+    max-height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    /*margin-left: 10rem; */
+}
+.intro{
+    color: aliceblue;
+    font-size: large;
+    text-align: justify;
+}
+.main{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Permanent Marker script=latin rev=1;
+}

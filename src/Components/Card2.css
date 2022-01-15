@@ -1,0 +1,97 @@
+html, body {
+    width: 100%;
+    height:86%;
+  }
+  
+  body {
+     /*   background: linear-gradient(-45deg, #111111, #14020a, #11041b,  #021114, #0d1b04);*/
+     background: linear-gradient(-45deg, #a75151, #a83f6f, #5b1a8d,  #44bad1);
+      background-size: 400% 400%;
+      animation: gradiant 15s ease infinite;
+  }
+  
+  @keyframes gradiant {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    height: 70vh;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 15rem;
+}
+.multicolor-text {
+    Font-family: trend-sans-w00-four, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(243,167,21);
+   
+    /* background: linear-gradient(to right,
+            blue, 
+            green,
+            yellow,
+            orange,
+            red,
+            violet,
+            indigo
+           );
+    -webkit-background-clip: text;
+    color: transparent;*/
+}
+.info{
+    color: white;
+    margin-top: -1rem;
+}
+.container{
+    height: auto;
+    width: 80%;
+    background-color: #111111;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+.cover{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;   
+}
+.iconRow{
+    display: flex;
+    justify-content: space-between;
+      margin-top: 7rem;
+      margin-left: -2rem;
+}
+.icons{
+    height: 8rem;
+    width: 7.5rem;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+  @keyframes example {
+    from {
+        opacity: 0;
+        transform: translateY(3rem);
+      }
+    
+      to {
+        opacity: 1;
+        transform: translateY(0);
+  }
+}
+.icons:hover{
+    height: 9rem;
+    width: 9rem;
+}

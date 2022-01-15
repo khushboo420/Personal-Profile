@@ -1,0 +1,84 @@
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #111111, #14020a, #11041b,  #021114, #0d1b04);
+     /*  background: linear-gradient(-45deg, #a75151, #a83f6f, #5b1a8d,  #44bad1, #66c52a);*/
+      background-size: 400% 400%;
+      animation: gradiant 15s ease infinite;
+  }
+  
+  @keyframes gradiant {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    height: 70vh;
+    width: 90%;
+    border-radius: 20px;
+    margin-top: 15rem;
+}
+.multicolor-text {
+    Font-family: trend-sans-w00-four, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    background: linear-gradient(to right,
+            blue, 
+            green,
+            yellow,
+            orange,
+            red,
+            violet,
+            indigo
+           );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.info{
+    color: white;
+    margin-top: -1rem;
+}
+.welcomeImage{
+    height: 40rem;
+    margin-top: -10rem;
+    margin-left: 4rem;
+}
+.container{
+    height: auto;
+    width: 80%;
+    background-color: #111111;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+.cover{
+    height: auto;
+    width: 100%;
+    /*animation: cardAppear 1s ease-out forwards; */
+}
+/*
+@keyframes cardAppear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+*/
